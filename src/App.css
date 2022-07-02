@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.Card {
+  display: flex;
+  margin-top: 150px;
+  padding: 1rem;
+  border: 5px solid black;
+  height: 50%;
+  border-radius: 15px;
+  text-align: center;
+  flex-direction: column;
+  color: aliceblue;
+  
+}
+
+.App h1 {
+  color: #772efd;
+}
+
+ul {
+  list-style: none;
+}
