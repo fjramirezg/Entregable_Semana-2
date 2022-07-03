@@ -41,9 +41,9 @@ const Card = ({
           {description}
           {`"`}
         </li>
-        <li>wind: {wind}</li>
-        <li>Clouds: {clouds}</li>
-        <li>Pressure: {presure}</li>
+        <li>Wind speed: {wind} m/s</li>
+        <li>Clouds: {clouds} %</li>
+        <li>Pressure: {presure} hPa</li>
       </ul>
 
       <button className="btn-ct" onClick={changeTem}>
