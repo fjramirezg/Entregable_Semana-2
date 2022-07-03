@@ -5,7 +5,7 @@ import Card from "./components/Card";
 
 function App() {
   const [weather, setWeather] = useState({});
- 
+
   useEffect(() => {
     const success = (pos) => {
       const lat = pos.coords.latitude;
@@ -31,8 +31,10 @@ function App() {
     navigator.geolocation.getCurrentPosition(success);
   }, []);
 
+
+
   return (
-    <div className="App">
+    <div className="app">
       <Card
         city={weather.city}
         country={weather.country}
@@ -45,6 +47,6 @@ function App() {
       />
     </div>
   );
-}
+};
 
 export default App;

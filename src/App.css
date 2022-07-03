@@ -4,30 +4,42 @@
   box-sizing: border-box;
 }
 
-.App {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
- 
-}
-
-.Card {
-  display: flex;
-  margin-top: 150px;
-  padding: 1rem;
-  border: 5px solid black;
-  height: 50%;
-  border-radius: 15px;
-  text-align: center;
-  flex-direction: column;
-  color: aliceblue;
-  
-}
-
-.App h1 {
-  color: #772efd;
-}
-
 ul {
   list-style: none;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/surface-g66dee81b0_1920.jpg);
+  object-fit: cover;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  border: 5px solid black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e0ecff;
+}
+
+.card h1 {
+  color: #772efd;
+  font-size: 40px;
+}
+
+.card h2 {
+  font-size: 30px;
+}
+
+.btn-ct {
+  font-size: 15px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: 400;
 }

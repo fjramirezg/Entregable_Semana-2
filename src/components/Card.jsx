@@ -26,24 +26,28 @@ const Card = ({
       setGrades([nuevoValor, "C°"]);
     }
   };
+
   return (
     <div className="card">
       <h1>Weather App</h1>
       <h2>
-        {" "}
-        {city} {country}
+        {city} {","} {country}
       </h2>
-      <ul className="card__ul">
+      <ul className="card">
         <li className="temp">{grades[0] + grades[1]}</li>
         <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt="" />
-        <li>{description}</li>
+        <li>
+          {`"`}
+          {description}
+          {`"`}
+        </li>
         <li>wind: {wind}</li>
         <li>Clouds: {clouds}</li>
         <li>Pressure: {presure}</li>
       </ul>
 
-      <button className="btn-w" onClick={changeTem}>
-        Click
+      <button className="btn-ct" onClick={changeTem}>
+        Change Temp
       </button>
     </div>
   );
