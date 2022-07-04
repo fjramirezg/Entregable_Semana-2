@@ -35,7 +35,7 @@ const Card = ({
       </h2>
       <ul className="card">
         <li className="temp">{grades[0] + grades[1]}</li>
-        <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt="" />
+        <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} />
         <li>
           {`"`}
           {description}
